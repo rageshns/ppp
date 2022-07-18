@@ -1,0 +1,134 @@
+from imp import IMP_HOOK
+
+
+{
+  "brand": "FORD",
+  "type": "Kuga"
+}
+
+
+Todo IMP
+
+https://www.oreilly.com/library/view/programming-aws-lambda/9781492041047/ch04.html
+
+
+https://medium.com/@pra4mesh/aws-lambda-in-java-and-terraform-544da9102e37
+
+https://spacelift.io/blog/terraform-aws-lambda
+
+https://github.com/prameshbhattarai/java-lambda-terraform/tree/master/terraform
+
+https://registry.terraform.io/providers/duplocloud/duplocloud/latest/docs/resources/aws_lambda_function
+
+
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lambda_function
+
+https://lumigo.io/aws-lambda-deployment/aws-lambda-terraform/
+
+https://github.com/devtestorg1/tf/tree/19f3891d67764b2863d438f4af702e495f55ccc4/aws/aws_lambda_api
+
+https://github.com/cds-snc/share-files-securely/tree/5a883cbfb7410397de01039de579985836a58357/.github/workflows
+https://github.com/pavank1933/serverless_deploy/tree/master/tfscripts
+
+
+
+nbbb    api gateway lambda  
+
+https://greeeg.com/en/issues/aws-lambda-ci-cd-pipeline-github-actions-terraform -------------cicd
+
+nbb cicd https://github.com/TomerFi/alexa-skill-shabbat-times/blob/f802e875c3341bc5368283c2e661d9b7c19e0fdc/.github/workflows/release.yml
+
+https://github.com/Accurate0/maccas-api/blob/e9fa0f505b4821e74fc094bdc2c88214c3d67b2d/.github/workflows/lambda.yml
+
+ECR Lambda :- https://github.com/cds-snc/scan-websites/blob/407411afd9d66db8ad586900034ac037eddcb5df/.github/workflows/build_and_push.yml
+https://github.com/PhilipK13/money_manager/blob/bb6d14e65d4b89777a836daf581029a8b937730c/.github/workflows/addUserData.yml
+https://github.com/cds-snc/share-files-securely/blob/5a883cbfb7410397de01039de579985836a58357/.github/workflows/build_and_deploy.yml
+https://github.com/ogemelody/try/blob/2a585981977e35807575a3bbb7d6b2a1ac22765b/.github/workflows/main3.yml
+https://github.com/cds-snc/scan-files/blob/410b2be9e1f81562dea568d1b5653c6bc90bc3fa/.github/workflows/deploy_lambda_production.yml
+
+https://github.com/pavank1933/serverless_deploy/blob/9db803e893f35841551a37b90cc54342017ab922/Makefile
+
+aws lambda update-function-code --function-name fanout2 --zip-file fileb://main.zip
+aws lambda update-function-code --function-name projTestZip        --zip-file fileb://build/cldawsLambda.zip --publish
+https://github.com/tepkool01/pantrychef/blob/321f5a3eda394bb86f24c941fe9929a0edcf07f8/.github/workflows/backend.yml
+
+sonar :- https://github.com/Meeds-io/gatein-sso/blob/develop/.github/workflows/build.yml
+
+https://hands-on.cloud/managing-amazon-api-gateway-using-terraform/
+https://github.com/aws-samples/serverless-patterns/tree/main/apigw-lambda-dynamodb-terraform
+
+https://github.com/nicksc423/resume-site/blob/d613caf719282c00f0aa647a3294343090361d42/.github/workflows/backend-cicd.yml
+
+
+https://github.com/Xinyi-12/Social-Network-Application-serverless/blob/ae9ff848c3383ccbe01aa1146d475e4f4d5bea7a/.github/workflows/CI.yml
+
+https://serverlessland.com/patterns/apigw-lambda-dynamodb-terraform
+
+https://hands-on.cloud/managing-amazon-api-gateway-using-terraform/
+
+https://github.com/willitsw/brewing-backend/blob/db7a7117794f719cf9eec097789c9c86c73d0a05/.github/workflows/deploy-prod.yaml
+
+https://github.com/oswalth/abyssinian/blob/24cfefe4cb99ae070f3a2733023abc18cda19f9e/.github/workflows/cd.yml
+
+
+https://github.com/RadascentCommon/rad-workflows/blob/1c5b839719cb950a6f70db9f5a4037f5c51360dc/.github/workflows/maven-base.yml
+https://github.com/opengovsg/postmangovsg/blob/8c819c5a923535b9e2b416a99302277cb7d7edb5/.github/workflows/deploy.serverless.redaction-digest.yml
+
+
+module example
+https://github.com/hands-on-cloud/managing-amazon-api-gateway-using-terraform
+https://github.com/subhasis020299/terraform-api-gateway/tree/main/modules
+
+https://github.com/ssakhamuri/spring-boot-aws-lambda-terraform/tree/master/terraform
+
+https://github.com/prameshbhattarai/java-lambda-terraform
+
+https://github.com/hands-on-cloud/tf-s3-demo-project/blob/master/main.tf
+
+
+https://github.com/fer1035/terraform-aws-rest-api-lambda-endpoint
+
+https://github.com/genstackio/terraform-aws-apigateway2-api
+
+
+https://github.com/OpenClassrooms/terraform-aws-lambda-apigw-module
+
+
+https://github.com/terraform-aws-modules/terraform-aws-apigateway-v2/blob/master/main.tf
+
+https://github.com/thedaves97/api-gateway-lambda/blob/main/main.tf
+
+https://github.com/ofelipedias/aws-serverless-example/blob/master/terraform/api.tf
+
+open api sample
+
+https://github.com/heiwa4126/terraform-apigw-ex2-openapi/blob/main/main.tf
+https://github.com/heiwa4126/terraform-apigw-ex4-openapi/blob/main/main.tf
+https://github.com/heiwa4126/terraform-apigw-ex1/blob/main/main.tf
+
+https://github.com/rpstreef/openapi-tf-example/blob/master/services/api/example.yml
+
+
+https://stackoverflow.com/questions/70699408/how-to-deploy-api-gateway-with-template-file-stored-in-s3-bucket
+
+https://discuss.hashicorp.com/t/how-to-deploy-api-gateway-with-template-file-stored-in-s3-bucket/34267
+
+
+https://github.com/theherk/terraform-aws-apigateway-proxy/blob/main/main.tf
+
+https://github.com/nsbno/terraform-aws-api-gateway/blob/master/main.tf
+
+https://github.com/devtestorg1/tf/tree/19f3891d67764b2863d438f4af702e495f55ccc4/aws/aws_lambda_api
+
+
+step functions
+
+https://serverlessland.com/patterns/eventbridge-sfn-lambda-terraform
+https://github.com/roguehedgehog/claire/tree/e8a2cb84eeef5a7802189e9815411dc0b292f49a/tf/claire
+
+
+3312207765
+
+VRL/1029/D
+
+https://github.com/gilyas/infracost/tree/730c68e19f01ffa498bee637f4e3762b4c0d49be/internal/providers/terraform/aws
