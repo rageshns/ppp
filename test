@@ -7,6 +7,34 @@ from imp import IMP_HOOK
 }
 
 
+Dynamo DB terraform :-
+
+https://blog.devgenius.io/deploying-a-dynamodb-table-using-terraform-modules-ae5621312f10
+
+https://blog.devgenius.io/creating-a-dynamodb-table-using-python-ce0b599c8a63
+
+https://gmusumeci.medium.com/how-to-create-amazon-dynamodb-tables-in-aws-with-terraform-aff8e49e3c21
+
+
+
+ssm parameters:-
+
+https://copyprogramming.com/howto/how-to-create-aws-ssm-parameter-from-terraform
+
+https://stackoverflow.com/questions/70800213/terraform-issue-while-reading-value-from-aws-ssm-parameter-store
+
+
+
+https://copyprogramming.com/howto/terraform-what-is-null-provider
+
+https://copyprogramming.com/howto/terraform-aws-iam-role-policy-attachment
+
+https://copyprogramming.com/howto/terraform-depends-on
+
+https://copyprogramming.com/howto/terraform-how-to-pass-environment-variables-to-sub-modules-in-terraform
+
+
+
 Todo IMP
 
 https://www.oreilly.com/library/view/programming-aws-lambda/9781492041047/ch04.html
