@@ -7,6 +7,33 @@ from imp import IMP_HOOK
 }
 
 
+maldivis cicd
+
+https://github.com/tepkool01/pantrychef/blob/321f5a3eda394bb86f24c941fe9929a0edcf07f8/.github/workflows/backend.yml
+
+security scan python https://github.com/cds-snc/scan-files/blob/410b2be9e1f81562dea568d1b5653c6bc90bc3fa/.github/workflows/bandit_security_scan.yml
+
+https://github.com/cds-snc/share-files-securely/blob/5a883cbfb7410397de01039de579985836a58357/.github/workflows/bandit_security_scan.yml
+
+
+
+
+terraform learning
+https://github.com/YSureshN/Kubernetes-Dashboard-Cluster-Autoscaling/tree/279bcd3e21ec0118e37b164aafc3f88edeecb95c/Terraform-Topics-master
+
+
+serverless python lambda
+
+https://github.com/jorfermo/iac-cloud-sls/blob/dfd32db6df9373209b347e2a59252ccc2b5b56e7/serverless.yml
+https://github.com/jamby1100/serverless-framework-best-practices/blob/main/serverless.yml
+
+
+
+java lambda deploy 
+https://github.com/vqtran/EchoQuery/blob/3e1ae564c4f8d207324fa6be5b8b5e4be47510fb/bin/update-jar
+https://github.com/sohah/serverfuzz-eval/blob/3f564fae27e35e4fa644b40f06195839e11f8702/git-repos/multi-service-repos/cloudProject/java_template/deploy/publish.sh
+
+
 Dynamo DB terraform :-
 
 https://blog.devgenius.io/deploying-a-dynamodb-table-using-terraform-modules-ae5621312f10
@@ -17,11 +44,24 @@ https://gmusumeci.medium.com/how-to-create-amazon-dynamodb-tables-in-aws-with-te
 
 
 
+
+maldivies
+https://github.com/keithrozario/Klayers
+
+https://github.com/diegotorres03/serverless-e2e-main/tree/master/functions
+
+lambda python
+https://github.com/figtools/figgy/tree/9d16717ddf5b982540856ba67d171e4b6759086d/terraform/modules
+
+
+
+
 ssm parameters:-
 
 https://copyprogramming.com/howto/how-to-create-aws-ssm-parameter-from-terraform
 
 https://stackoverflow.com/questions/70800213/terraform-issue-while-reading-value-from-aws-ssm-parameter-store
+https://github.com/phzietsman/aws-slack-clickoops-watcher/blob/59b6eb83170fd250d14f3a6a59815d865578e64f/lambda.tf
 
 
 
@@ -64,6 +104,8 @@ nbbb    api gateway lambda
 
 https://greeeg.com/en/issues/aws-lambda-ci-cd-pipeline-github-actions-terraform -------------cicd
 
+https://github.com/heiwa4126/terraform-apigw-ex2-openapi/blob/main/main.tf
+
 nbb cicd https://github.com/TomerFi/alexa-skill-shabbat-times/blob/f802e875c3341bc5368283c2e661d9b7c19e0fdc/.github/workflows/release.yml
 
 https://github.com/Accurate0/maccas-api/blob/e9fa0f505b4821e74fc094bdc2c88214c3d67b2d/.github/workflows/lambda.yml
@@ -75,6 +117,14 @@ https://github.com/ogemelody/try/blob/2a585981977e35807575a3bbb7d6b2a1ac22765b/.
 https://github.com/cds-snc/scan-files/blob/410b2be9e1f81562dea568d1b5653c6bc90bc3fa/.github/workflows/deploy_lambda_production.yml
 
 https://github.com/pavank1933/serverless_deploy/blob/9db803e893f35841551a37b90cc54342017ab922/Makefile
+
+
+https://github.com/cds-snc/scan-websites/blob/407411afd9d66db8ad586900034ac037eddcb5df/terragrunt/aws/api/api_gateway.tf
+
+
+
+https://github.com/cds-snc/scan-websites/blob/407411afd9d66db8ad586900034ac037eddcb5df/terragrunt/aws/api/lambda.tf
+
 
 aws lambda update-function-code --function-name fanout2 --zip-file fileb://main.zip
 aws lambda update-function-code --function-name projTestZip        --zip-file fileb://build/cldawsLambda.zip --publish
@@ -134,6 +184,8 @@ https://github.com/heiwa4126/terraform-apigw-ex2-openapi/blob/main/main.tf
 https://github.com/heiwa4126/terraform-apigw-ex4-openapi/blob/main/main.tf
 https://github.com/heiwa4126/terraform-apigw-ex1/blob/main/main.tf
 
+https://github.com/heiwa4126/terraform-apigw-ex2-openapi/blob/main/main.tf
+
 https://github.com/rpstreef/openapi-tf-example/blob/master/services/api/example.yml
 
 
@@ -160,3 +212,43 @@ https://github.com/roguehedgehog/claire/tree/e8a2cb84eeef5a7802189e9815411dc0b29
 VRL/1029/D
 
 https://github.com/gilyas/infracost/tree/730c68e19f01ffa498bee637f4e3762b4c0d49be/internal/providers/terraform/aws
+
+ref lambda & github action ref nbbb
+
+
+https://github.com/RadascentCommon/rad-workflows/blob/1c5b839719cb950a6f70db9f5a4037f5c51360dc/.github/workflows/aws-lambda-deploy-base.yml
+
+https://github.com/davidcarboni/scloud/blob/52367698ac7d14628e5b2b856b33a275aa4a2deb/.github/workflows/container_lambda.yml
+
+https://github.com/nextdotid/proof-server/blob/fffa94639d99c0a707cb7befdb51201ea655896d/.github/workflows/build.yaml
+
+https://github.com/cityofaustin/atd-moped/tree/4112e583afb719603ad48b1c6d5ec251b120c1c4/.github/workflows
+
+https://github.com/RadascentCommon/rad-workflows/blob/1c5b839719cb950a6f70db9f5a4037f5c51360dc/.github/workflows/maven-base.yml
+
+https://github.com/Network-Structure-Cloud-Computing/serverless/blob/4b43996e7801ec913107cae2b23e52fb3e21084b/.github/workflows/serverless.yml
+
+https://github.com/ConorRoberts/dogs-barking/tree/d2d275fe47db9d3395017bc1adcbaa8ca1edb0c8/.github/workflows
+
+
+checov ref
+
+https://www.checkov.io/
+https://github.com/cds-snc/scan-websites/tree/407411afd9d66db8ad586900034ac037eddcb5df/terragrunt
+
+
+
+performance test
+
+https://github.com/cdvillegas1/tesisQuarkus/blob/170c42505d4c2affad9824462a53fcb9cc187f46/load-test/run-load-test-native.sh
+
+Snyk
+
+https://github.com/cds-snc/scan-websites/blob/407411afd9d66db8ad586900034ac037eddcb5df/api/.snyk
+
+
+.coveragerc
+
+https://github.com/cds-snc/scan-websites/blob/407411afd9d66db8ad586900034ac037eddcb5df/api/.coveragerc
+
+
