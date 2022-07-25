@@ -34,3 +34,83 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+name: Terraform plan
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "terraform/**"
+      - ".github/workflows/**"
+
+
+name: pr-workflow
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - unlabeled      
+    branches:
+      - main
+    paths-ignore:
+      - '**.md'
+      - 'OWNERS'
+      - 'OWNERS_ALIASES'
+
+
+name: cd-lambda-default
+on:
+  workflow_call:
+    inputs:
+      function-name:
+        required: true
+        type: string
+
+
+
+name: Deploy frontend to AWS Amplify
+on:
+  push:
+    branches:
+      - staging
+      - master
+
+
+name: Meeds Builders PR Task Webhook
+on:
+  pull_request:
+    types: [opened, reopened, closed, review_requested]
+  pull_request_review:
+    types: [submitted]
+
+
+
+name: pr
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "master" branch
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+
+
+jobs:
+  print_context:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          EVENT_CONTEXT: ${{ toJSON(github.event) }}
+        run: |
+          echo $EVENT_CONTEXT
