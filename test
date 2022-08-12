@@ -7,6 +7,30 @@ from imp import IMP_HOOK
 }
 
 
+date auguest 12
+
+https://dev.to/rolfstreefkerk/openapi-with-terraform-on-aws-api-gateway-17je
+
+https://inovaonlinesolutions.medium.com/creating-a-rest-api-in-aws-api-gateway-using-terraform-a61fd00a3fbf
+
+https://blogs.perficient.com/2022/05/03/how-to-integrate-aws-lambda-with-amazon-api-gateway-using-terraform-code/
+
+https://www.reddit.com/r/aws/comments/pbjm2w/api_gateway_openapi_terraform_method_response/
+
+https://chezsoi.org/lucas/blog/deploying-aws-api-gateway-static-endpoints-using-terraform.html
+
+
+
+
+nb github actions
+
+
+https://github.com/rhythmictech/terraform-aws-api-gateway/blob/master/.github/workflows/pullRequest.yaml
+
+https://github.com/rhythmictech/terraform-aws-api-gateway/blob/master/.gitignore
+
+
+
 maldivis cicd
 
 https://github.com/tepkool01/pantrychef/blob/321f5a3eda394bb86f24c941fe9929a0edcf07f8/.github/workflows/backend.yml
